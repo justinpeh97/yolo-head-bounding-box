@@ -1,0 +1,28 @@
+# Model weights - large binaries, don't belong in git history
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Script output - generated images from running pose_estimation.py
+output*/
+outputs*/
+runs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
