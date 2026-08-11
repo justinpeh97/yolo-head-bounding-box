@@ -26,3 +26,6 @@ env/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Others
+.claude
